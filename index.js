@@ -10,6 +10,8 @@ module.exports = function (source) {
 
   var arr = source.match(/<\/?include(.|\r|\n)*?>/g);
 
+  if(arr){
+
   var temp = source;
 
   var darr = [],oarr = [];
@@ -52,10 +54,10 @@ module.exports = function (source) {
     i++;
   }
 
+    console.log(arr.length,inc);
+  }
 
 
-
-  console.log(arr.length,inc);
 
   var value = source;
 
