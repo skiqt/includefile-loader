@@ -4,8 +4,6 @@ module.exports = function (source) {
 
   if (this.cacheable) this.cacheable();
 
-  //var arr = source.match(/<include(.|\n)*?src=(.|\n)*?(\/>|>(.|\n|\r)*?<\/include>)/g);
-
   var inc = [];
 
   var arr = source.match(/<\/?include(.|\r|\n)*?>/g);

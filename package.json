@@ -4,7 +4,8 @@
   "description": "include all file",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "up": "git add * ;git commit -m \"A\" ;git push origin master"
   },
   "repository": {
     "type": "git",
