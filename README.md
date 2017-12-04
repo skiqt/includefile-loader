@@ -5,16 +5,17 @@ include .js .css .html ...
 
 
 ## 案例
-
- * include
-   * a.js
-   * b.js
-   * base.html
-   * body.html
-   * footer.html
-   * header.html
-   * style.css
- * text.html
+```html
+|include
+--|a.js
+--|b.js
+--|base.html
+--|body.html
+--|footer.html
+--|header.html
+--|style.css
+|text.html
+```
 
 ### text.html
 ```html
