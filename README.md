@@ -3,7 +3,7 @@ include .js .css .html ...
 
 ## 安装
 
-<h2 align="center">Install</h2>
+**Install**
 
 ```bash
 npm install --save-dev includefile-loader
