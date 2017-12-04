@@ -1,5 +1,5 @@
 {
-  "name": "include-loader",
+  "name": "includefile-loader",
   "version": "1.0.0",
   "description": "include all file",
   "main": "index.js",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skiqt/include-loader.git"
+    "url": "git+https://github.com/skiqt/includefile-loader.git"
   },
   "keywords": [],
   "author": "skiqt",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/skiqt/include-loader/issues"
+    "url": "https://github.com/skiqt/includefile-loader/issues"
   },
-  "homepage": "https://github.com/skiqt/include-loader#readme"
+  "homepage": "https://github.com/skiqt/includefile-loader#readme"
 }

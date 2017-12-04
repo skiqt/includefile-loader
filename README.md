@@ -1,8 +1,27 @@
-# include-loader
+# includefile-loader
 include .js .css .html ...
 
 ## 安装
 
+<h2 align="center">Install</h2>
+
+```bash
+npm install --save-dev includefile-loader
+```
+
+**webpack.config.js**
+```js
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.(html|htm)$/,
+        use: [ 'includefile-loader' ]
+      }
+    ]
+  }
+}
+```
 
 ## 案例
 ```html
@@ -42,3 +61,5 @@ include .js .css .html ...
   </body>
 </html>
 ```
+
+### 懒结果就不贴了
