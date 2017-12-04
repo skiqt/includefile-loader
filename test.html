@@ -1,39 +1,7 @@
-<html>
-<include src="./index.js" >
-
-  <include id="566" src=./text.js>213123</include>
-
-  <div>
-    <include src=./text.js >
-
-    </include>
-  </div>
-
-  <include src=./text.js/>
-
-  <include src="./a.js" >
-    <include src="./b.js" >
-      <include src="./c.js" >
-        <include src='./text.js'/>
-      </include>
-    </include>
+<include src="include/base.html">
+  <include src="./include/header.html"></include>
+  <include src="./include/body.html"></include>
+  <include src="./include/footer.html">
+    <include src="./include/header.html"></include>
   </include>
-
-  <include
-    src="./text.js"
-    name="abc"
-    >
-
-  </include>
-
 </include>
-
-<include src='./text.js'/>
-
-</html>
-
-<include
-
-src='./text.js'
-
-/>
