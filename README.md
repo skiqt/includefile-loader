@@ -6,15 +6,15 @@ include .js .css .html ...
 
 ## 案例
 
-include
-  a.js
-  b.js
-  base.html
-  body.html
-  footer.html
-  header.html
-  style.css
-text.html
+ * include
+   * a.js
+   * b.js
+   * base.html
+   * body.html
+   * footer.html
+   * header.html
+   * style.css
+ * text.html
 
 ### text.html
 ```html
@@ -25,6 +25,7 @@ text.html
     <include src="./include/header.html"></include>
   </include>
 </include>
+```
 
 ### base.html
 ```html
@@ -39,3 +40,4 @@ text.html
       <!-- {{ include }} -->
   </body>
 </html>
+```
