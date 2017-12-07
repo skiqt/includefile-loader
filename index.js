@@ -8,3 +8,5 @@ module.exports = function (source) {
 
   return outvalue;
 }
+
+module.exports.include = include;
