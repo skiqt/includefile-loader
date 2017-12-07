@@ -3,9 +3,7 @@ const fs = require("fs");
 module.exports = function include(source,path,hell) {
   hell = hell || 0;
   if(hell > 18) return source;
-
-  console.log(hell);
-
+  
   var outvalue = source;
 
   var arr = source.match(/<\/?include(.|\r|\n)*?>/g);

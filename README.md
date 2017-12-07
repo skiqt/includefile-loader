@@ -9,20 +9,6 @@ include .js .css .html ...
 npm install --save-dev includefile-loader
 ```
 
-**webpack.config.js**
-```js
-module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.(html|htm)$/,
-        use: [ 'includefile-loader' ]
-      }
-    ]
-  }
-}
-```
-
 ## 注意事项 》不要相互嵌套《 否则有不好的结果
 
 ## 案例
