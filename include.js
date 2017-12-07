@@ -3,7 +3,7 @@ const fs = require("fs");
 module.exports = function include(source,path,hell) {
   hell = hell || 0;
   if(hell > 18) return source;
-  
+
   var outvalue = source;
 
   var arr = source.match(/<\/?include(.|\r|\n)*?>/g);
@@ -69,6 +69,9 @@ module.exports = function include(source,path,hell) {
 
       if(n.src){
         if(path){
+          if(!path.endsWith("/")){
+            path += "/";
+          }
           if(n.src.indexOf('../') == -1){
             n.src = path + n.src.replace("./",'');
           }else{
