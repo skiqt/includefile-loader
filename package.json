@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
-    "upa": "git add *",
-    "upc": "git commit -m \"x\"",
-    "upp": "git push origin master"
+    "up": "git add * && git commit -m \"x\" && git push origin master"
   },
   "repository": {
     "type": "git",
